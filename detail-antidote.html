@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="img/ico.png">
+    <title>ANTIDOTE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-image {
+            max-width: 600px;
+            border-radius: 20px;
+        }
+
+        .pembelian img {
+            width: 13%;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .pembelian img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/antidote.jpg" class="d-block w-100 product-image" alt="Product Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/antidote2.jpg" class="d-block w-100 product-image" alt="Product Image 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h1 class="mb-3 mt-2">ANTIDOTE</h1>
+                <p class="text-muted">Kategori : Parfum</p>
+                <h3 class="text-primary mb-3">Rp 1.5000</h3>
+                <hr>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, necessitatibus eius
+                    consequuntur quod, atque dolor repudiandae at aperiam facere magnam aliquam laudantium autem
+                    voluptates minus tempore perspiciatis ipsam recusandae rerum.
+                </p>
+
+                <div class="pembelian">
+                    <p><strong>Beli Melalui:</strong></p>
+                    <a href="https://shopee.co.id/mcsant.id" target="_blank" title="Beli di Shopee">
+                        <img src="img/shopee.png" alt="Shopee" class="img-fluid">
+                    </a>
+                    <a href="https://www.tokopedia.com/product-link" target="_blank" title="Beli di Tokopedia">
+                        <img src="img/tokped.jpeg" alt="Tokopedia" class="img-fluid">
+                    </a>
+                    <a href="https://wa.me/6285179997335?text=Halo%2C%20saya%20ingin%20memesan%20barang%20dengan%20detail%20berikut%3A%0A%0A%E2%80%A2%20Nama%20Pemesan%3A%20%5BTuliskan%20nama%20Anda%5D%0A%E2%80%A2%20Nama%20Barang%3A%20ANTIDOTE%0A%E2%80%A2%20Jumlah%20Barang%3A%20%5BTuliskan%20jumlah%20yang%20diinginkan%5D%0A%E2%80%A2%20%20Kode%20Promo%3A%20%5BTuliskan%20KODE%20PROMO%5D%0A%E2%80%A2%20Alamat%20Pengiriman%3A%0A%5BTuliskan%20alamat%20lengkap%2C%20termasuk%20nama%20penerima%2C%20nomor%20telepon%2C%20dan%20kode%20pos%5D%0A%0APembayaran%20dapat%20dilakukan%20melalui%20transfer%20ke%3A%0A%E2%80%A2%20Nomor%20Rekening%3A%203780814071%0A%E2%80%A2%20Atas%20Nama%3A%20MR%0A%0AMohon%20konfirmasi%20dengan%20Screenshot%20bukti%20transfer%20dilakukan.%20Terima%20kasih%20"
+                        target="
+                        _blank" title="Beli via WhatsApp">
+                        <img src="img/whatsapp.png" alt="WhatsApp" class="img-fluid">
+                    </a>
+                    <div>
+                        <a href="index.html#products" class="btn btn-primary mt-4">Kembali ke Halaman Utama</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
